@@ -5,6 +5,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Counter from './pages/Counter';
 import Home from './pages/Home';
+import ReducerSetUp from './pages/ReducerSetUp';
 
 // const initialState={
 //   count: 0
@@ -29,8 +30,9 @@ function App() {
      <button onClick={()=>dispatch({type: "decrement"})}>Decrement </button> */}
      <BrowserRouter>
      <Routes>
-       <Route path='/' element={<Home/>} />
-       <Route path='/counter' element={<Counter/>} />
+       {/* <Route path='/' element={<Home/>} />
+       <Route path='/counter' element={<Counter/>} /> */}
+       <Route path='/' element={<ReducerSetUp/>} />
      </Routes>
      </BrowserRouter>
     </>

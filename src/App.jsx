@@ -32,7 +32,7 @@ function App() {
      <Routes>
        {/* <Route path='/' element={<Home/>} />
        <Route path='/counter' element={<Counter/>} /> */}
-       <Route path='/' element={<ReducerSetUp/>} />
+       <Route path='/' element={<Home/>} />
      </Routes>
      </BrowserRouter>
     </>

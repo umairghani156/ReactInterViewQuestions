@@ -7,6 +7,7 @@ import Counter from './pages/Counter';
 import Home from './pages/Home';
 import ReducerSetUp from './pages/ReducerSetUp';
 import Gift from './components/Gift';
+import Pointer from './components/Pointer';
 
 // const initialState={
 //   count: 0
@@ -36,7 +37,7 @@ function App() {
        {/* <Route path='/' element={<Home/>} />
      </Routes>
      </BrowserRouter> */}
-     <Gift/>
+     <Pointer/>
     </>
   )
 }

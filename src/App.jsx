@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Counter from './pages/Counter';
 import Home from './pages/Home';
 import ReducerSetUp from './pages/ReducerSetUp';
+import Gift from './components/Gift';
 
 // const initialState={
 //   count: 0
@@ -28,13 +29,14 @@ function App() {
      {/* <p>Count: {state.count}</p>
      <button onClick={()=>dispatch({type: 'increment'})}>Increment</button>
      <button onClick={()=>dispatch({type: "decrement"})}>Decrement </button> */}
-     <BrowserRouter>
-     <Routes>
+     {/* <BrowserRouter>
+     <Routes> */}
        {/* <Route path='/' element={<Home/>} />
        <Route path='/counter' element={<Counter/>} /> */}
-       <Route path='/' element={<Home/>} />
+       {/* <Route path='/' element={<Home/>} />
      </Routes>
-     </BrowserRouter>
+     </BrowserRouter> */}
+     <Gift/>
     </>
   )
 }
